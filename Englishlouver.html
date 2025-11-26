@@ -1,11 +1,170 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Louvre – Mona Lisa Q&A</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #222;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    h2 {
+      text-align: center;
+      font-weight: normal;
+      margin-top: 0;
+      margin-bottom: 25px;
+      color: #555;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 12px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+    details {
+      padding: 0;
+    }
+    summary {
+      cursor: pointer;
+      padding: 15px 18px;
+      font-size: 1rem;
+      font-weight: bold;
+      list-style: none;
+    }
+    summary::-webkit-details-marker {
+      display: none;
+    }
+    .answer {
+      padding: 0 18px 16px 18px;
+      font-size: 0.98rem;
+      line-height: 1.5;
+      border-top: 1px solid #eee;
+    }
+    .tag {
+      display: inline-block;
+      margin-top: 6px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      background: #eef2ff;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #777;
+      margin-top: 25px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello</h1>
+  <div class="container">
+    <h1>The Louvre & the Mona Lisa</h1>
+    <h2>Tap a question to reveal the answer</h2>
+
+    <!-- Question 1 -->
+    <div class="card">
+      <details>
+        <summary>❓ Question 1: Which painting are we talking about?</summary>
+        <div class="answer">
+          <p>
+            We are talking about the <strong>Mona Lisa</strong>, also known as
+            <strong>La Joconde</strong>. It was painted by
+            <strong>Leonardo da Vinci</strong> in the early 16th century.
+            The painting shows a woman with a calm expression and a mysterious,
+            almost <em>enigmatic</em> smile.
+          </p>
+          <p>
+            The model is believed to be <strong>Lisa del Giocondo</strong>, a
+            Florentine woman. Today the Mona Lisa is displayed in the
+            <strong>Louvre Museum in Paris</strong> and is one of the most
+            famous works of art in the world.
+          </p>
+          <span class="tag">Art facts</span>
+        </div>
+      </details>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="card">
+      <details>
+        <summary>❓ Question 2: What is the interesting story behind it?</summary>
+        <div class="answer">
+          <p>
+            In <strong>1911</strong>, the Mona Lisa was
+            <strong>stolen from the Louvre</strong>. A worker named
+            <strong>Vincenzo Peruggia</strong> hid inside the museum,
+            removed the painting from its frame, and walked out with it under his coat.
+          </p>
+          <p>
+            For two years, nobody knew where the painting was. In 1913,
+            Peruggia tried to sell it in Italy and was arrested. When the Mona Lisa
+            returned to Paris, the scandal made it even more famous worldwide.
+          </p>
+          <span class="tag">History & Story</span>
+        </div>
+      </details>
+    </div>
+
+    <!-- Question 3: Systems Engineering -->
+    <div class="card">
+      <details>
+        <summary>❓ Question 3: How can we describe it using systems engineering?</summary>
+        <div class="answer">
+          <p>
+            In systems engineering, the Mona Lisa is not only a painting—it's the heart
+            of a <strong>complex system</strong>:
+          </p>
+          <ul>
+            <li>
+              The <strong>mission</strong> is:
+              “Allow visitors to see the Mona Lisa while keeping it safe for centuries.”
+            </li>
+            <li>
+              The <strong>stakeholders</strong> include:
+              visitors, museum staff, conservators, security teams, the French state,
+              and future generations.
+            </li>
+            <li>
+              The <strong>technical architecture</strong> contains:
+              a climate-controlled glass case, cameras, sensors, alarms, lighting,
+              barriers, and visitor-flow control.
+            </li>
+            <li>
+              The <strong>human subsystem</strong> includes:
+              security guards, engineers, curators, and people who design the visitor space.
+            </li>
+          </ul>
+          <p>
+            All components must work together to satisfy requirements like
+            <strong>security</strong>, <strong>conservation</strong>,
+            <strong>comfort</strong>, and <strong>accessibility</strong>.
+            This is a perfect example of how systems engineers think:
+            define the mission, identify stakeholders, extract requirements,
+            and design a coherent architecture.
+          </p>
+          <span class="tag">Systems Engineering</span>
+        </div>
+      </details>
+    </div>
+
+    <footer>
+      Educational page – Tap a question to read the answer
+    </footer>
+  </div>
 </body>
 </html>
+
