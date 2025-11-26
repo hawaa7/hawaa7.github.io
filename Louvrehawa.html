@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Raft of the Medusa – Q&A</title>
+  <style>
+    /* Background image: Le Radeau de la Méduse */
+    body {
+      margin: 0;
+      font-family: Arial, system-ui, sans-serif;
+      color: #ffffff;
+      background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Th%C3%A9odore_G%C3%A9ricault_-_Le_Radeau_de_la_M%C3%A9duse.jpg/960px-Th%C3%A9odore_G%C3%A9ricault_-_Le_Radeau_de_la_M%C3%A9duse.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    /* Dark layer to make text readable */
+    .overlay {
+      min-height: 100vh;
+      background: rgba(0, 0, 0, 0.65);
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 10px 0 5px;
+    }
+
+    h2 {
+      text-align: center;
+      font-weight: normal;
+      margin: 0 0 25px;
+      font-size: 1rem;
+      color: #e5e5e5;
+    }
+
+    .card {
+      background: rgba(15, 15, 20, 0.9);
+      border-radius: 12px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    details {
+      padding: 0;
+    }
+
+    summary {
+      cursor: pointer;
+      padding: 14px 18px;
+      font-size: 0.98rem;
+      font-weight: 600;
+      list-style: none;
+      position: relative;
+    }
+
+    /* Remove default arrow (Chrome) */
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    /* Small custom arrow */
+    summary::after {
+      content: "▸";
+      position: absolute;
+      right: 18px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+
+    details[open] summary::after {
+      content: "▾";
+    }
+
+    .answer {
+      padding: 0 18px 14px 18px;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .answer ul {
+      padding-left: 18px;
+      margin: 8px 0;
+    }
+
+    .tag {
+      display: inline-block;
+      margin-top: 6px;
+      padding: 3px 9px;
+      border-radius: 999px;
+      font-size: 0.7rem;
+      background: rgba(129, 140, 248, 0.35);
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.78rem;
+      color: #d4d4d4;
+      margin-top: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="container">
+      <h1>The Raft of the Medusa</h1>
+      <h2>Tap each question to reveal the answer</h2>
+
+      <!-- Q1: Location in the Louvre -->
+      <div class="card">
+        <details>
+          <summary>❓ Question 1: Where exactly is it located in the Louvre?</summary>
+          <div class="answer">
+            <p>
+              <strong>The Raft of the Medusa</strong> is displayed in the
+              <strong>Denon Wing</strong> of the Louvre, on
+              <strong>Level 1</strong>, in <strong>Room 700 (Salle Mollien)</strong>,
+              in the French Romantic painting section.
+            </p>
+            <p>
+              The canvas is enormous: about <strong>4.91 m high</strong> and
+              <strong>7.16 m wide</strong>. When visitors enter the room, the
+              painting dominates the space like a giant screen, which makes the
+              tragedy even more impressive.
+            </p>
+            <span class="tag">Location</span>
+          </div>
+        </details>
+      </div>
+
+      <!-- Q2: Historical event -->
+      <div class="card">
+        <details>
+          <summary>❓ Question 2: What real event inspired this painting?</summary>
+          <div class="answer">
+            <p>
+              The painting is based on the <strong>shipwreck of the French frigate
+              Méduse</strong> in <strong>1816</strong>, near the coast of
+              present-day Mauritania, on the way to Senegal.
+            </p>
+            <p>
+              Because of poor navigation and bad decisions, the ship ran
+              aground. A large group of people were placed on a
+              <strong>makeshift wooden raft</strong>. About <strong>147</strong>
+              people started on the raft; after <strong>13 days</strong> at sea,
+              only <strong>15 survived</strong>, after hunger, thirst, madness and
+              even cannibalism. The scandal shocked France and became a symbol
+              of political incompetence.
+            </p>
+            <span class="tag">History</span>
+          </div>
+        </details>
+      </div>
+
+      <!-- Q3: Géricault's preparation -->
+      <div class="card">
+        <details>
+          <summary>❓ Question 3: How did Géricault prepare this painting?</summary>
+          <div class="answer">
+            <p>
+              Géricault worked almost like an <strong>investigator</strong> or an
+              <strong>engineer</strong>:
+            </p>
+            <ul>
+              <li>He interviewed survivors such as Savigny (the doctor) and Corréard (the engineer).</li>
+              <li>He read official reports and newspapers about the disaster.</li>
+              <li>He built a <strong>scale model of the raft</strong> to study its structure.</li>
+              <li>He observed dead bodies in hospitals to paint the anatomy realistically.</li>
+            </ul>
+            <p>
+              He combined all this information to design a composition that is
+              both historically based and visually powerful.
+            </p>
+            <span class="tag">Research & method</span>
+          </div>
+        </details>
+      </div>
+
+      <!-- Q4: What moment & composition -->
+      <div class="card">
+        <details>
+          <summary>❓ Question 4: What moment of the story is shown in the painting?</summary>
+          <div class="answer">
+            <p>
+              The scene shows the moment when the survivors finally see a
+              <strong>rescue ship</strong> on the horizon and try to signal it.
+              Some men wave pieces of cloth, others stand up and stretch their
+              arms toward the tiny ship in the distance.
+            </p>
+            <p>
+              The composition is built like a <strong>double pyramid</strong>:
+              dead bodies in the foreground form the base, while the group of
+              men climbing toward the top expresses <strong>hope</strong>. At the
+              same time, the dark sea and sky keep the feeling of
+              <strong>danger</strong> and instability.
+            </p>
+            <span class="tag">Scene & composition</span>
+          </div>
+        </details>
+      </div>
+
+      <!-- Q5: Systems engineering – failure -->
+      <div class="card">
+        <details>
+          <summary>❓ Question 5: How can we see this story as a system failure?</summary>
+          <div class="answer">
+            <p>
+              From a <strong>systems engineering</strong> point of view, the
+              Méduse is a complete <strong>system breakdown</strong>:
+            </p>
+            <ul>
+              <li>
+                <strong>Poor leadership:</strong> an inexperienced captain was
+                chosen for political reasons, not for competence.
+              </li>
+              <li>
+                <strong>Bad risk management:</strong> navigation errors and no
+                proper contingency plan for a shipwreck.
+              </li>
+              <li>
+                <strong>Inadequate resources:</strong> the raft was badly
+                designed, overloaded and had almost no food or water.
+              </li>
+              <li>
+                <strong>Ethical collapse:</strong> the crew abandoned people on
+                the raft to save themselves.
+              </li>
+            </ul>
+            <p>
+              The catastrophe is not just “bad luck”; it is the consequence of
+              a series of <strong>design and decision failures</strong> in the
+              whole socio-technical system.
+            </p>
+            <span class="tag">System failure</span>
+          </div>
+        </details>
+      </div>
+
+      <!-- Q6: Subsystems & mission -->
+      <div class="card">
+        <details>
+          <summary>❓ Question 6: What subsystems and mission can we identify?</summary>
+          <div class="answer">
+            <p>
+              We can describe the situation using typical systems engineering
+              concepts:
+            </p>
+            <ul>
+              <li>
+                <strong>Mission:</strong> transport people safely from France to
+                Senegal.
+              </li>
+              <li>
+                <strong>Human subsystem:</strong> officers, sailors, soldiers,
+                passengers, plus their skills, decisions and behaviors.
+              </li>
+              <li>
+                <strong>Technical subsystem:</strong> the ship, the emergency
+                boats, and finally the <strong>raft</strong> (structure, ropes,
+                mast, sails).
+              </li>
+              <li>
+                <strong>Environmental subsystem:</strong> ocean, weather,
+                currents, visibility.
+              </li>
+              <li>
+                <strong>Management & governance subsystem:</strong> the Navy,
+                political decisions, rules for safety and evacuation.
+              </li>
+            </ul>
+            <p>
+              The painting shows what happens when these subsystems are not
+              correctly designed, coordinated or controlled. It is a visual
+              case study of a <strong>failed complex system</strong>.
+            </p>
+            <span class="tag">Systems engineering view</span>
+          </div>
+        </details>
+      </div>
+
+      <footer>
+        hawa
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
